@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- A few lines to set up the camera -->
+      <a-entity id="cameraWrapper" position="0 0 6">
+        <a-camera></a-camera>
+      </a-entity>
+
+      <!--    Code your scene here:    -->
+      <a-sphere position="0 1.25 0" radius="1.25"></a-sphere>
+      <a-plane position="0 0 0" rotation="-90 0 0" width="20" height="20" color="#BDCFE7"></a-plane>
+      <a-sky color="aliceblue"></a-sky>
+    </a-scene>
+  </body>
+</html>
